@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+	Author - Erin Coots
+	Date - 9/19/16
+	Filename - SlideShow.css
+	Description - Handles style code for SlideShow.html
+*/
+
+html, body{
+	background-color: #FFF;
+}
+
+.slide_show{
+	width: 833px;
+	border: 1px solid #FFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button #prev_btn{
+	float: left;
+	margin-top: 30%;
+}
+
+.button #next_btn{
+	float:right;
+	margin-top: 30%;
+}
