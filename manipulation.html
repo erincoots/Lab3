@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CSS Manipulation</title>
+	<link href="manipulation.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="manipulation.js"></script>
+</head>
+
+<body>
+
+	<div id="container">
+    	<div id="box">
+        	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis, tellus vel vehicula accumsan, tortor velit auctor nulla, vel rutrum ante ligula at leo. Pellentesque a luctus ligula, quis hendrerit lorem. Quisque ac consequat tellus. Sed sit amet purus nisi. Donec non fringilla sapien, ut molestie metus. Nam auctor ex ac justo sodales pharetra. Sed fermentum, metus at maximus maximus, libero nisl condimentum tellus, vitae ornare lorem erat at augue.</p>
+        	<p>Pellentesque at sapien justo. Aenean tempor urna vel turpis convallis, vel suscipit mi finibus. Sed id eros in lorem feugiat condimentum. Duis eu tellus tempor, aliquam ipsum quis, bibendum quam. Nam in mauris lacus. Suspendisse malesuada vestibulum libero, nec egestas tortor vulputate at. Vestibulum vitae ante non orci efficitur blandit quis eu eros. Curabitur in diam egestas, volutpat odio in, iaculis neque. Sed vitae malesuada leo, eu commodo ante.</p>
+        </div>
+        <div class="changes">
+        	<div class="border">
+            	<h3>Change the Border</h3>
+                <div class="color">
+	                <p>Values between 0-255</p>
+	                <div class="entry"><p>Red Value</p><input id="borderRed" type="text" /></div>
+	                <div class="entry"><p>Green Value</p><input id="borderGreen" type="text" /></div>
+	                <div class="entry"><p>Blue Value</p><input id="borderBlue" type="text" /></div>
+                </div>
+                <div class="width">
+	                <p>Any Value</p>
+    	            <div class="entry"><p>Width</p><input id="width" type="text" /></div>
+                </div>
+            </div>
+            <div class="background">
+            	<h3>Change the Background</h3>
+                <p>Values between 0-255</p>
+                <div class="entry"><p>Red Value</p><input id="backgroundRed" type="text" /></div>
+                <div class="entry"><p>Green Value</p><input id="backgroundGreen" type="text" /></div>
+                <div class="entry"><p>Blue Value</p><input id="backgroundBlue" type="text" /></div>
+            </div>
+            <button id="btn" onclick="change()">Change</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

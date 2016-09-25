@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+#box{
+	background-color: #FFF;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+h3{
+	border-bottom: 1px solid #000;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.changes{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+
+.border{;
+	border-right: 1px solid #000;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 40px;
+	float: left;
+}
+
+.color{
+	float: left;
+}
+
+.width{
+	margin-left: 20px;
+	float: right;
+}
+
+.entry{
+	margin: 1px;
+}
+
+.entry p{
+	margin-right: 7px;
+}
+
+#btn{
+	margin-top: 20px;
+}
